@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         //Pacients
@@ -11,6 +13,7 @@ public class Main {
         p1.medicament = "Paracetamol";
         p1.operacionsQuirurgiques = "abc";
         p1.pes = 85.5;
+        p1.dataNaixement = new Date(2003, 1, 2);
 
         Pacient p2 = new Pacient();
         p2.alergies = "res";
@@ -22,6 +25,7 @@ public class Main {
         p2.medicament = "Paracetamol";
         p2.operacionsQuirurgiques = "abc";
         p2.pes = 30.5;
+        p2.dataNaixement = new Date(2005, 5, 12);
 
         Pacient p3 = p1;
         p3.alergies = "res";
@@ -32,6 +36,7 @@ public class Main {
         p3.malaltiesCroniques = "3";
         p3.medicament = "Paracetamol";
         p3.operacionsQuirurgiques = "abc";
+        p3.dataNaixement = new Date(2005, 2, 23);
 
         //Fruiteria
         Fruiteria f1 = new Fruiteria();
@@ -59,6 +64,7 @@ public class Main {
         System.out.println("Davide: " + p1.medicament);
         System.out.println("Davide: " + p1.operacionsQuirurgiques);
         System.out.println("Davide: " + p1.pes);
+        System.out.println("Davide: " + p1.dataNaixement);
 
         //Espai
         System.out.println("");
@@ -72,6 +78,7 @@ public class Main {
         System.out.println("Nacho: " + p2.medicament);
         System.out.println("Nacho: " + p2.operacionsQuirurgiques);
         System.out.println("Nacho: " + p2.pes);
+        System.out.println("Nacho: " + p2.dataNaixement);
 
         //Espai
         System.out.println("");
@@ -85,6 +92,7 @@ public class Main {
         System.out.println("Alex: " + p3.medicament);
         System.out.println("Alex: " + p3.operacionsQuirurgiques);
         System.out.println("Alex: " + p3.pes);
+        System.out.println("Alex: " + p3.dataNaixement);
 
         //Espai
         System.out.println("");
