@@ -13,7 +13,7 @@ public class Main {
         p1.medicament = "Paracetamol";
         p1.operacionsQuirurgiques = "abc";
         p1.pes = 85.5;
-        p1.dataNaixement = new Date(2003, 1, 2);
+        p1.dataNaixement = new Date("01/02/2003");
 
         Pacient p2 = new Pacient();
         p2.alergies = "res";
@@ -25,7 +25,7 @@ public class Main {
         p2.medicament = "Paracetamol";
         p2.operacionsQuirurgiques = "abc";
         p2.pes = 30.5;
-        p2.dataNaixement = new Date(2005, 5, 12);
+        p2.dataNaixement = new Date("01/02/2003");
 
         Pacient p3 = p1;
         p3.alergies = "res";
@@ -36,7 +36,7 @@ public class Main {
         p3.malaltiesCroniques = "3";
         p3.medicament = "Paracetamol";
         p3.operacionsQuirurgiques = "abc";
-        p3.dataNaixement = new Date(2005, 2, 23);
+        p3.dataNaixement = new Date("01/02/2003");
 
         //Fruiteria
         Fruiteria f1 = new Fruiteria();
