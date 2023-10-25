@@ -1,9 +1,9 @@
 public class Carta {
-    private int puntsMana;
-    private boolean daurada;
-    private String nomCarta;
-    private int puntsAtac;
-    private int puntsVida;
-    private String tipusCarta;
-    private String dibuixCarta;
+    public int puntsMana;
+    public boolean daurada;
+    public String nomCarta;
+    public int puntsAtac;
+    public int puntsVida;
+    public String tipusCarta;
+    public String dibuixCarta;
 }
