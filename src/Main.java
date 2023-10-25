@@ -12,5 +12,7 @@ public class Main {
         p1.pes = 85.5;
 
         System.out.println("Davide: " + p1.nom);
+        System.out.println();
     }
+
 }
