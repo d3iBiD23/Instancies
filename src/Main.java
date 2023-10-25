@@ -24,14 +24,14 @@ public class Main {
         p2.pes = 30.5;
 
         Pacient p3 = p1;
-        p2.alergies = "res";
-        p2.alcada = 1.30;
-        p2.cognom = "Martín";
-        p2.nom = "Alex";
-        p2.genere = "Masculí";
-        p2.malaltiesCroniques = "3";
-        p2.medicament = "Paracetamol";
-        p2.operacionsQuirurgiques = "abc";
+        p3.alergies = "res";
+        p3.alcada = 1.30;
+        p3.cognom = "Martín";
+        p3.nom = "Alex";
+        p3.genere = "Masculí";
+        p3.malaltiesCroniques = "3";
+        p3.medicament = "Paracetamol";
+        p3.operacionsQuirurgiques = "abc";
 
         //Fruiteria
         Fruiteria f1 = new Fruiteria();
